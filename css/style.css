@@ -700,3 +700,23 @@ button:focus,
   column-count:         1;
   }
 }
+
+/* instafeed */
+li.feed-item.juicer.juicer-ad,
+.juicer-feed .j-message,
+.juicer-feed h1.referral {
+    display: none !important;
+}
+.juicer-feed li.feed-item {
+    border-width: 1px 1px 1px 1px !important;
+    transition: box-shadow linear 0.5s;
+}
+.juicer-feed li.feed-item:hover {
+    -webkit-box-shadow: 0px 0px 27px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 27px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 27px 2px rgba(0,0,0,0.2);
+    /* transform: scale(1.1); */
+}
+.juicer-feed .j-poster-meta a {
+    text-transform: initial !important;
+}
