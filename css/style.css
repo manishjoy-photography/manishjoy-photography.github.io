@@ -71,7 +71,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #12308b;
+    color              : #3bb5fa;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -124,7 +124,7 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #12308b;
+    background-color : #3bb5fa;
     }
 
 .btn-primary:hover,
@@ -302,7 +302,10 @@ button:focus,
 .header .btn {
     margin-top : 40px;
     }
-
+address.insta {
+    font-size: 20px;
+    font-weight: 500;
+}
 @media (max-width : 768px) {
     .header {
         padding       : 0;
@@ -407,7 +410,7 @@ button:focus,
     }
 
 .progress-item .progress-bar {
-    background-color : #12308b;
+    background-color : #3bb5fa;
     box-shadow       : none;
     text-align       : right;
     }
